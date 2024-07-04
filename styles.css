@@ -1,0 +1,85 @@
+.completed {
+    color: green;  
+    text-decoration: line-through;
+  }
+  
+  
+  .todo-app {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e3d7d7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(223, 221, 221, 0.1);
+    font-family: "Sofia", sans-serif;
+  }
+  
+  .todo-app h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .todo-app form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .todo-app form input[type="text"],
+  .todo-app form input[type="date"],
+  .todo-app form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #f9f9f5;
+    border-radius: 5px;
+    font-family: "Sofia", sans-serif;
+  }
+  
+  .todo-app form button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .todo-app form button:hover {
+    background-color: #4bcd3c;
+  }
+  
+  .todo-app ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-app li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgb(252, 248, 248);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-app li input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo-app li .delete-btn {
+    background-color: #f44336;
+    color: rgb(255, 253, 252);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .todo-app li .delete-btn:hover {
+    background-color: #da190b;
+  }
+
+  .task-emoji {
+    display: inline;
+  }
